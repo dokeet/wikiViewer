@@ -27,15 +27,10 @@
         }).then(this.setData.bind(this));
       },
       setData: function(res) {
-        console.log(res.data)
         this.articles = res.data.query.pages;
-
       },
-
     },
-
-    })
-
+  })
     Vue.transition('fade', {
       enterClass: 'fadeIn',
       leaveClass: 'fadeOutRight'
