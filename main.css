@@ -1,0 +1,113 @@
+html {
+  color: white;
+  font-size: 24px;
+  }
+body {
+  background-color: #006064;
+}
+
+#mainText {
+  font-size: 32px;
+  color: #ffffff;
+  padding-left: 0px;
+  top: 350px;
+
+  display:inline-flex;
+  position: fixed;
+  font-family: 'Nunito', sans-serif;
+}
+#searchBox {
+
+  position: fixed;
+  top: 450px;
+
+
+}
+
+
+
+#articlesBox {
+  display: inline-flex;
+  position: relative;
+
+
+
+}
+
+.randomButton {
+  transition: all 0.3s easy;
+  color: #26a69a;
+}
+.randomButton:hover {
+  color: #80cbc4;
+
+}
+
+.typed {
+    font-size: 32px;
+    color: #ffffff;
+    top: 450px;
+    display:inline-flex;
+    position: fixed;
+    font-family: 'Nunito', sans-serif;
+  }
+
+
+h1 {
+  color: #ffffff;
+  font-size: 32px;
+  transition: all 0.5s ease;
+}
+
+h1:hover {
+  font-size: 36px;
+
+}
+
+p {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.typed-cursor {
+  opacity: 0.5;
+  -webkit-animation: blink 1.2s infinite;
+          animation: blink 1.2s infinite;
+  font-size: 12px;
+}
+
+#name {
+  font-size: 14px;
+  position: relative;
+
+}
+
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
