@@ -42,15 +42,6 @@ body {
 
 }
 
-.typed {
-    font-size: 32px;
-    color: #ffffff;
-    top: 410px;
-    right: 5px;
-    position: sticky;
-    font-family: 'Nunito', sans-serif;
-  }
-
 
 h1 {
   color: #ffffff;
@@ -72,6 +63,9 @@ a {
   text-decoration: none;
 }
 
+.footer {
+  
+}
 
 .typed-cursor {
   opacity: 0.5;
