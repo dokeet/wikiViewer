@@ -2,11 +2,7 @@
     const vm = new Vue({
       el: '#app',
 
-      ready: function(){
-
-   },
-
-      data: {
+        data: {
         articles: [],
         searchQuery: ''
       },
